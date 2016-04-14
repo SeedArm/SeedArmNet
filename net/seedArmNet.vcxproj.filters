@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{c8afdb73-f850-4bb4-8735-0144a20c0be1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources">
+      <UniqueIdentifier>{8bee81e2-4240-49a6-9ad3-9d5cc352c9bb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\component.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\connection.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\container.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\event_receiver.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\memory_pool.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\message.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\message_procedure.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\singleton.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\connection_impl.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\seedArm_service.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\seedArm_service_impl.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="sources\connection_impl.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\message.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\message_procedure.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\seedArm_service_impl.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
